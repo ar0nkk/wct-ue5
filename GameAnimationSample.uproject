@@ -74,6 +74,21 @@
 		{
 			"Name": "GameplayInteractions",
 			"Enabled": true
+		},
+		{
+			"Name": "AIAssistant",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "GameAnimationSample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	],
 	"EpicSampleNameHash": "1673045636"
