@@ -16,7 +16,7 @@ public:
     UPROPERTY(ReplicatedUsing = OnRep_WCTScore, BlueprintReadOnly, Category = "WCT|Score")
     int32 WCTScore;
 
-    UPROPERTY(ReplicatedUsing = OnRep_IsChaser, BlueprintReadOnly, Category = "WCT|Role", meta=(AllowPrivateAccess="true", DisplayName="IsChaser"))
+    UPROPERTY(ReplicatedUsing = OnRep_IsChaser, BlueprintReadWrite, Category = "WCT|Role", meta=(AllowPrivateAccess="true", DisplayName="IsChaser", BlueprintSetter="SetIsChaser"))
     bool bIsChaser;
 
     UFUNCTION()
@@ -26,11 +26,8 @@ public:
     void OnRep_IsChaser();
 
     void AddScore(int32 Delta);
-    UFUNCTION(BlueprintCallable, Category = "WCT|Role")
+    UFUNCTION(BlueprintSetter, Category = "WCT|Role")
     void SetIsChaser(bool bNewIsChaser);
-
-    UFUNCTION(BlueprintCallable, Category = "WCT|Role")
-    bool GetIsChaser() const { return bIsChaser; }
 
     UFUNCTION(BlueprintCallable, Category = "WCT|Role")
     bool IsRunner() const { return !bIsChaser; }

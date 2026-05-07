@@ -7,6 +7,8 @@
 
 class AWCTGameState;
 class AWCTPlayerState;
+class APlayerController;
+class AWCTPlayerController;
 
 UCLASS()
 class GAMEANIMATIONSAMPLE_API AWCTGameMode : public AGameModeBase
@@ -44,6 +46,9 @@ private:
     void EndRound(AController* Winner, bool bRunnerSurvived);
     void FinishMatch();
     void AssignRolesForNewRound();
+    void MovePlayersToStart();
+    void TeleportControllerToTag(AController* Controller, FName StartTag) const;
+    AActor* FindPlayerStartByTag(FName StartTag) const;
     void UpdateTimeRemaining();
 
     void SetControllerMovementEnabled(AController* Controller, bool bEnabled) const;
