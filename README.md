@@ -2,6 +2,12 @@
 
 Developed with Unreal Engine 5.7
 
+## Quick Start
+```
+git lfs install
+git clone https://github.com/ar0nkk/wct-ue5.git
+```
+
 ## 游戏规则
 1v1 竞技追逐游戏（追捕者 vs 逃跑者）
 
