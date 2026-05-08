@@ -40,14 +40,14 @@ git clone https://github.com/ar0nkk/wct-ue5.git
 ---
 
 ## TODO
-### Priority 1
+### High Priority
 - [ ] 飞扑等角色动作
 - [ ] 场景搭建
 - [ ] 添加更多和障碍物的交互动画
 - [ ] 添加体力系统或动作冷却时间
 - [ ] 其他平衡调整
 
-### Priority 2
+### Low Priority
 - [ ] 回合提示音效
 - [ ] UI 美化
 - [ ] 游戏设置（操作键位等）
