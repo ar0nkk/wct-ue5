@@ -6,7 +6,7 @@
 #include "WCTPlayerState.generated.h"
 
 UCLASS()
-class WCT_API AWCTPlayerState : public APlayerState
+class FINALCHASE_API AWCTPlayerState : public APlayerState
 {
     GENERATED_BODY()
 

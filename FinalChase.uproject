@@ -86,7 +86,7 @@
 	],
 	"Modules": [
 		{
-			"Name": "WCT",
+			"Name": "FinalChase",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

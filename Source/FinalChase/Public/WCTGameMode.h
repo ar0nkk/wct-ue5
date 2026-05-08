@@ -11,7 +11,7 @@ class APlayerController;
 class AWCTPlayerController;
 
 UCLASS()
-class WCT_API AWCTGameMode : public AGameModeBase
+class FINALCHASE_API AWCTGameMode : public AGameModeBase
 {
     GENERATED_BODY()
 

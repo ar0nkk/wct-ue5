@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class WCT : ModuleRules
+public class FinalChase : ModuleRules
 {
-    public WCT(ReadOnlyTargetRules Target) : base(Target)
+    public FinalChase(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
