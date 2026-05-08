@@ -1,13 +1,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class GameAnimationSampleEditorTarget : TargetRules
+public class WCTEditorTarget : TargetRules
 {
-    public GameAnimationSampleEditorTarget(TargetInfo Target) : base(Target)
+    public WCTEditorTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.V6;
         IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
-        ExtraModuleNames.Add("GameAnimationSample");
+        ExtraModuleNames.Add("WCT");
     }
 }

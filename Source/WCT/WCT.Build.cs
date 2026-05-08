@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class GameAnimationSample : ModuleRules
+public class WCT : ModuleRules
 {
-    public GameAnimationSample(ReadOnlyTargetRules Target) : base(Target)
+    public WCT(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

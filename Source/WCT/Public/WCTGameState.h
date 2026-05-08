@@ -6,7 +6,7 @@
 #include "WCTGameState.generated.h"
 
 UCLASS()
-class GAMEANIMATIONSAMPLE_API AWCTGameState : public AGameStateBase
+class WCT_API AWCTGameState : public AGameStateBase
 {
     GENERATED_BODY()
 

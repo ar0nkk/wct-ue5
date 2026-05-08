@@ -5,7 +5,7 @@
 #include "WCTPlayerController.generated.h"
 
 UCLASS()
-class GAMEANIMATIONSAMPLE_API AWCTPlayerController : public APlayerController
+class WCT_API AWCTPlayerController : public APlayerController
 {
     GENERATED_BODY()
 

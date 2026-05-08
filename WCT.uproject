@@ -86,7 +86,7 @@
 	],
 	"Modules": [
 		{
-			"Name": "GameAnimationSample",
+			"Name": "WCT",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
